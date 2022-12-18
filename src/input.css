@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Kanit:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.card{
+  @apply bg-white rounded-md shadow-md overflow-hidden relative hover:shadow-lg;
+}
+
+.badge{
+  @apply flex bg-gray-100 text-secondary-200 text-sm uppercase font-semibold rounded-full px-2 py-1 absolute top-0 ml-2 mt-2 items-center justify-center ;
+}
+
+.btn{
+  @apply rounded-full py-2 px-3 uppercase text-xs font-bold cursor-pointer tracking-wider ;
+}
