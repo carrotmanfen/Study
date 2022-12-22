@@ -559,6 +559,10 @@ video {
   margin-right: 1rem;
 }
 
+.ml-6 {
+  margin-left: 1.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -668,6 +672,19 @@ video {
 
 .p-4 {
   padding: 1rem;
+}
+
+.font-mono {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.text-9xl {
+  font-size: 8rem;
+  line-height: 1;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .text-white {
