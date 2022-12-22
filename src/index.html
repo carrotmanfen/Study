@@ -9,6 +9,7 @@
 </head>
 
 <body class="text-gray-600 font-Kanit">
+  <style>.unselectable {user-select: none;}</style>
     <div class="grid md:grid-cols-6">
         <div class="md:col-span-1 md:flex md:justify-end">
             <nav class="text-right">
@@ -196,10 +197,10 @@
                     <!--card go here-->
                 </div>
 
-                <div class="flex justify-center">
+                <div class="flex justify-center select-none">
                     <div
                         class="btn bg-secondary-100 text-secondary-200 hover:shadow-inner hover:scale-125 hover:bg-opacity-50 ease-in-out duration-300">
-                        <p id="load-more">Load More</p>
+                        <p class="select-none unselectable" id="load-more">Load More</p>
                     </div>
                 </div>
             </div>
