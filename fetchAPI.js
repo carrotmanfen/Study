@@ -1,4 +1,5 @@
 const div = document.createElement('div');
+
 fetch('https://jsonplaceholder.typicode.com/todos')
     .then(respond => respond.json())
     .then(res => {
