@@ -9,6 +9,7 @@ import person3 from "./person3.svg";
 import sell from "./sell.svg";
 import techCrunch from "./techCrunch.svg";
 import getApp from  "./getApp.svg";
+import hamburger from "./hamburger.svg"
 
 export{
   buildIn,
@@ -21,5 +22,6 @@ export{
   person3,
   sell,
   techCrunch,
-  getApp
+  getApp,
+  hamburger
 };

@@ -1,10 +1,19 @@
 import {fastCompany,forbes,mii,person1,person2,person3,techCrunch} from "../assets";
 
 export const navLinks=[
-  "about",
-  "pricing",
-  "contact",
-  "buy nfts"
+  {
+    title:"about"
+  },
+  {
+    title:"pricing"
+  },
+  {
+    title:"contact"
+  },
+  {
+    title:"buy nfts"
+  }
+  
 ];
 
 export const features=[
