@@ -6,7 +6,7 @@ import ButtonClear from './ButtonClear'
 const Discover = () => {
   return (
     <section className='flex justify-center items-center'>
-        <div className="flex flex-col w-full sm:flex-row-reverse flex-1 justify-center lg:justify-between items-center mt-16 sm:mt-0 p-6 sm:max-w-[696px] md:max-w-[960px] lg:max-w-[1140px]">
+        <div className="flex flex-col w-full sm:flex-row-reverse flex-1 justify-center lg:justify-between items-center z-10 mt-16 sm:mt-0 p-6 sm:max-w-[696px] md:max-w-[960px] lg:max-w-[1140px]">
             <img src={discover} alt="discover" className='w-[160px] xs:w-[240px] sm:w-[50%]'/>
             <div>
 
@@ -15,7 +15,7 @@ const Discover = () => {
                 </h1>
                 <p className='text-white font-roboto text-center sm:text-left text-[20px] font-normal'>The most secure marketplace for <br className='hidden xs:block md:hidden'/> buying <br className='hidden md:block'/> and selling unique crypto assets</p>
                 <div className='flex flex-row justify-between mt-10'>
-                    <Button text={'BUY NFTS'}/>
+                    <Button text={'BUY NFTS'} />
                     <ButtonClear text={'SELL NFTS'}/>
                 </div>
             </div>

@@ -22,7 +22,8 @@ function App() {
         </div>
         
         
-        <div className="blue__gradient absolute w-[500px] h-[400px] top-[-300px] left-[-100px] z-0" />
+        <div className="purple__gradient absolute w-[600px] h-[500px] top-[-200px] left-[-100px] z-0" />
+        <div className="blue__gradient absolute w-[300px] h-[300px] top-[400px] right-[-200px] z-0" />
       
     </div>
   );

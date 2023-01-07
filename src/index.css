@@ -4,9 +4,15 @@
 @tailwind components;
 @tailwind utilities;
 
-.blue__gradient{
+.purple__gradient{
     background: #312964;
-    /* background: linear-gradient(white,#312964); */
     opacity: 0.7;
+    filter: blur(77.5px);
+}
+
+.blue__gradient{
+    background: #86CFD0;
+    /* background: linear-gradient(white,#86CFD0); */
+    opacity: 0.5;
     filter: blur(77.5px);
 }
