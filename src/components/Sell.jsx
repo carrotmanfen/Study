@@ -5,7 +5,7 @@ import Button from './Button'
 const Sell = () => {
   return (
     <section className='flex justify-center items-center'>
-        <div className='flex flex-col sm:flex-row justify-center items-center sm:max-w-[696px] md:max-w-[960px] lg:max-w-[1140px] sm:mt-16'>
+        <div className='flex flex-col sm:flex-row justify-center items-center sm:max-w-[696px] md:max-w-[960px] lg:max-w-[1140px] mt-16 sm:mt-24'>
             <img src={sell} alt="buildIn" className='w-[160px] xs:w-[240px] sm:w-[50%]' />
             <div className='flex flex-col '>
                 <h2 className='text-white font-normal font-roboto text-[20px] mb-6 text-center sm:text-left'>24/7 ACCESS</h2>
