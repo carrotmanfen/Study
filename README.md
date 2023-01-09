@@ -1,3 +1,16 @@
+This is clone web project by using react and tailwind
+fixma: https://www.figma.com/community/file/1188263961246625436
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
