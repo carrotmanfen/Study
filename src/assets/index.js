@@ -10,6 +10,7 @@ import sell from "./sell.svg";
 import techCrunch from "./techCrunch.svg";
 import getApp from  "./getApp.svg";
 import hamburger from "./hamburger.svg"
+import airplane from "./airplane.svg"
 
 export{
   buildIn,
@@ -23,5 +24,6 @@ export{
   sell,
   techCrunch,
   getApp,
-  hamburger
+  hamburger,
+  airplane
 };
